@@ -25,7 +25,7 @@ const Footer = () => {
 			<Container>
 				<div className="d-flex justify-content-between flex-wrap">
 					<span>Updated on {data.currentBuildDate.currentDate}.</span>
-					<span>Developed by André Rodrigo B. A. Maciel</span>
+					<span>André Rodrigo B. A. Maciel</span>
 				</div>
 			</Container>
 		</CustomFooter>

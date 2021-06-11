@@ -3,7 +3,7 @@ import CvSectionTitle from "./cv-section-title"
 
 const CvAbout = () => (
 	<>
-		<CvSectionTitle>Introdução</CvSectionTitle>
+		<CvSectionTitle>Sobre</CvSectionTitle>
 		<p>
 			Bacharel em Engenharia Hídrica e Ciência e Tecnologia, especialista
 			em Engenharia Ambiental e Saneamento Básico, aluno de iniciação
