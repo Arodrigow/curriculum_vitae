@@ -5,7 +5,6 @@ import SvgEmail from "../assets/svg/email.svg"
 import SvgGithub from "../assets/svg/github.svg"
 import SvgLinkedin from "../assets/svg/linkedin.svg"
 import SvgWhatsapp from "../assets/svg/whatsapp.svg"
-import SvgSite from "../assets/svg/site.svg"
 import SvgLattes from "../assets/svg/lattes.svg"
 
 const CvLink = ({ svg, link, linkText }) => (
@@ -38,7 +37,7 @@ const CvLinks = () => (
 		/>
 		<CvLink
 			svg={<SvgWhatsapp />}
-			link="https://api.whatsapp.com/send?phone=33988921316&text=Olá,%20I%20found%20you%20at%20your%20cv%20site"
+			link="https://api.whatsapp.com/send?phone=33988921316&text=Olá,%20te%20encontrei%20no%20site:%20andremaciel.site"
 			linkText="+55 (33) 98892-1316"
 		/>
 		<CvLink
@@ -46,7 +45,6 @@ const CvLinks = () => (
 			link="http://lattes.cnpq.br/4865006143751523"
 			linkText="Currículo Lattes"
 		/>
-		<CvLink svg={<SvgSite />} link="" linkText="" />
 	</ul>
 )
 

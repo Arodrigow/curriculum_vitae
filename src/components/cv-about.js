@@ -10,7 +10,7 @@ const CvAbout = () => (
 			científica em Inteligência Artificial e Séries Sintéticas durante a
 			graduação, desenvolvedor Java desde 2011. Ama tecnologia e começou a
 			programar em 2010, além de ser apaixonado por adquirir e aplicar
-			conhecimento.
+			novos conhecimentos.
 			<p>#neverstoplearning</p>
 		</p>
 	</>
