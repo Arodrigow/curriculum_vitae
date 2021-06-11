@@ -37,7 +37,7 @@ const CvLinks = () => (
 		/>
 		<CvLink
 			svg={<SvgWhatsapp />}
-			link="https://api.whatsapp.com/send?phone=33988921316&text=Olá,%20te%20encontrei%20no%20site:%20andremaciel.site"
+			link="https://api.whatsapp.com/send?phone=5533988921316&text=Olá,%20te%20encontrei%20no%20site:%20andremaciel.site"
 			linkText="+55 (33) 98892-1316"
 		/>
 		<CvLink
