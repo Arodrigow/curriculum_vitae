@@ -29,7 +29,7 @@ const CvLinks = () => (
 		<CvLink
 			svg={<SvgSite />}
 			link="https://andremaciel.dev.br/"
-			linkText="www.andremaciel.dev.br/"
+			linkText="www.andremaciel.dev.br"
 		/>
 		<CvLink
 			svg={<SvgGithub />}
