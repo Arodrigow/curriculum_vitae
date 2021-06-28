@@ -6,6 +6,7 @@ import SvgGithub from "../assets/svg/github.svg"
 import SvgLinkedin from "../assets/svg/linkedin.svg"
 import SvgWhatsapp from "../assets/svg/whatsapp.svg"
 import SvgLattes from "../assets/svg/lattes.svg"
+import SvgSite from "../assets/svg/site.svg"
 
 const CvLink = ({ svg, link, linkText }) => (
 	<CvCustomLi
@@ -24,6 +25,11 @@ const CvLinks = () => (
 			svg={<SvgEmail />}
 			link="mailto:andre.rodrigo.maciel@gmail.com"
 			linkText="andre.rodrigo.maciel@gmail.com"
+		/>
+		<CvLink
+			svg={<SvgSite />}
+			link="https://andremaciel.dev.br/"
+			linkText="www.andremaciel.dev.br/"
 		/>
 		<CvLink
 			svg={<SvgGithub />}
